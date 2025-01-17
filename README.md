@@ -1,7 +1,7 @@
 # Stock Closing Price Prediction
 
 ## Project Overview
-This project utilizes machine learning to predict stock closing price trends. By analyzing historical market data and leveraging advanced technical indicators, it provides a robust prediction framework for informed decision-making. The XGBoost model achieves ~80% accuracy for 7-day trend predictions. This repository demonstrates how technical indicators such as EMA, RSI, MACD, and Bollinger Bands can be integrated to enhance model performance and predictions.
+This project employs machine learning to forecast stock closing price trends. By analyzing historical market data and integrating advanced technical indicators, it offers a robust framework for informed decision-making. The XGBoost model achieves approximately 80% accuracy in predicting 7-day trends. This repository demonstrates the integration of technical indicators such as EMA, RSI, MACD, and Bollinger Bands to enhance model performance and predictions.
 
 ---
 
@@ -38,18 +38,18 @@ This project utilizes machine learning to predict stock closing price trends. By
 
 2. **Install Dependencies**:
    ```bash
-   pip install yfinance pandas numpy matplotlib scikit-learn xgboost
+   pip install -r requirements.txt
    ```
 
-3. **Run the Main Script**:
-   - To predict stock prices and visualize results, execute the script:
+3. **Run the Jupyter Notebook**:
+   - Launch Jupyter Notebook:
      ```bash
-     python stock_prediction.py
+     jupyter notebook
      ```
-   - Replace `stock_prediction.py` with the actual name of your script if it differs.
+   - Open `StockClosingPricePrediction.ipynb` and execute the cells to fetch data, train the model, and visualize predictions.
 
 4. **Modify Parameters:**
-   - Open the script and update the `stock_symbol` variable to the desired stock ticker (e.g., "AAPL" for Apple).
+   - Within the notebook, update the `stock_symbol` variable to the desired stock ticker (e.g., "AAPL" for Apple).
    - Adjust the date range in the `fetch_stock_data` function as needed.
 
 ---
@@ -83,4 +83,3 @@ Contributions are welcome! Feel free to fork the repository, create pull request
 
 ## Acknowledgments
 - Thanks to Yahoo Finance for the stock data API support.
->>>>>>> 6bd1187 (Update README.md)
