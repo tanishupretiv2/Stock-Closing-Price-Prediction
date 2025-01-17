@@ -63,6 +63,13 @@ This project employs machine learning to forecast stock closing price trends. By
 
 ---
 
+## Sample Results
+Below is a sample graph demonstrating the model's predictions:
+
+![Model Output](images/Predictions.png "Printed Model Output")
+![Sample Graph](images/SampleStockImage.png "Sample Graph of Predicted Trends")
+
+
 ## Future Improvements
 - **Real-Time Data Integration:** Enable live stock data fetching via APIs.
 - **Enhanced Visualizations:** Add dashboards for comprehensive analysis.
